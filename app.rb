@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
 require 'sinatra/base'
 require_relative 'worker'
@@ -13,4 +15,3 @@ class MyApp < Sinatra::Application
     erb :say
   end
 end
-
